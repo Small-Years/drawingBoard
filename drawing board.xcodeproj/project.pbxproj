@@ -95,15 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C702C8321DEE57BB008ED9B6 /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				C71DEC171DED81AC00CFBD2E /* UIImage+photoView.h */,
-				C71DEC181DED81AC00CFBD2E /* UIImage+photoView.m */,
-			);
-			name = UIImage;
-			sourceTree = "<group>";
-		};
 		C71DEBD21DED6EAA00CFBD2E = {
 			isa = PBXGroup;
 			children = (
@@ -127,9 +118,10 @@
 		C71DEBDD1DED6EAA00CFBD2E /* drawing board */ = {
 			isa = PBXGroup;
 			children = (
-				C7A355671EC2A45600EC0997 /* draw_View */,
 				C71DEC121DED6EC900CFBD2E /* ViewController */,
-				C702C8321DEE57BB008ED9B6 /* UIImage */,
+				C7A355671EC2A45600EC0997 /* draw_View */,
+				C71DEC171DED81AC00CFBD2E /* UIImage+photoView.h */,
+				C71DEC181DED81AC00CFBD2E /* UIImage+photoView.m */,
 				C71DEC111DED6EB900CFBD2E /* other */,
 				C71DEBDE1DED6EAA00CFBD2E /* Supporting Files */,
 			);

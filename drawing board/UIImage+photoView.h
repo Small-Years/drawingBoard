@@ -10,4 +10,6 @@
 
 @interface UIImage (photoView)
 
++(UIImage *)photoImageWithView:(UIView *)view;
+
 @end

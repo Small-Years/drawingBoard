@@ -15,6 +15,12 @@
 		C71DEBEE1DED6EAA00CFBD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71DEBEC1DED6EAA00CFBD2E /* LaunchScreen.storyboard */; };
 		C71DEBF91DED6EAA00CFBD2E /* drawing_boardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DEBF81DED6EAA00CFBD2E /* drawing_boardTests.m */; };
 		C71DEC041DED6EAA00CFBD2E /* drawing_boardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DEC031DED6EAA00CFBD2E /* drawing_boardUITests.m */; };
+		C71DEC191DED81AC00CFBD2E /* UIImage+photoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DEC181DED81AC00CFBD2E /* UIImage+photoView.m */; };
+		C71DEC291DED830600CFBD2E /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DEC251DED830600CFBD2E /* MBProgressHUD+NJ.m */; };
+		C71DEC2A1DED830600CFBD2E /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C71DEC261DED830600CFBD2E /* MBProgressHUD.bundle */; };
+		C71DEC2B1DED830600CFBD2E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DEC281DED830600CFBD2E /* MBProgressHUD.m */; };
+		C7A3556C1EC2A45600EC0997 /* draw_View.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A355691EC2A45600EC0997 /* draw_View.m */; };
+		C7A3556D1EC2A45600EC0997 /* YJ_View.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A3556B1EC2A45600EC0997 /* YJ_View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		C71DEBFF1DED6EAA00CFBD2E /* drawing boardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "drawing boardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71DEC031DED6EAA00CFBD2E /* drawing_boardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawing_boardUITests.m; sourceTree = "<group>"; };
 		C71DEC051DED6EAA00CFBD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71DEC171DED81AC00CFBD2E /* UIImage+photoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+photoView.h"; sourceTree = "<group>"; };
+		C71DEC181DED81AC00CFBD2E /* UIImage+photoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+photoView.m"; sourceTree = "<group>"; };
+		C71DEC241DED830600CFBD2E /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		C71DEC251DED830600CFBD2E /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		C71DEC261DED830600CFBD2E /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		C71DEC271DED830600CFBD2E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C71DEC281DED830600CFBD2E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C7A355681EC2A45600EC0997 /* draw_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw_View.h; sourceTree = "<group>"; };
+		C7A355691EC2A45600EC0997 /* draw_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = draw_View.m; sourceTree = "<group>"; };
+		C7A3556A1EC2A45600EC0997 /* YJ_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJ_View.h; sourceTree = "<group>"; };
+		C7A3556B1EC2A45600EC0997 /* YJ_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJ_View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C702C8321DEE57BB008ED9B6 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C71DEC171DED81AC00CFBD2E /* UIImage+photoView.h */,
+				C71DEC181DED81AC00CFBD2E /* UIImage+photoView.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
 		C71DEBD21DED6EAA00CFBD2E = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +127,10 @@
 		C71DEBDD1DED6EAA00CFBD2E /* drawing board */ = {
 			isa = PBXGroup;
 			children = (
-				C71DEBE11DED6EAA00CFBD2E /* AppDelegate.h */,
-				C71DEBE21DED6EAA00CFBD2E /* AppDelegate.m */,
-				C71DEBE41DED6EAA00CFBD2E /* ViewController.h */,
-				C71DEBE51DED6EAA00CFBD2E /* ViewController.m */,
-				C71DEBE71DED6EAA00CFBD2E /* Main.storyboard */,
-				C71DEBEA1DED6EAA00CFBD2E /* Assets.xcassets */,
-				C71DEBEC1DED6EAA00CFBD2E /* LaunchScreen.storyboard */,
-				C71DEBEF1DED6EAA00CFBD2E /* Info.plist */,
+				C7A355671EC2A45600EC0997 /* draw_View */,
+				C71DEC121DED6EC900CFBD2E /* ViewController */,
+				C702C8321DEE57BB008ED9B6 /* UIImage */,
+				C71DEC111DED6EB900CFBD2E /* other */,
 				C71DEBDE1DED6EAA00CFBD2E /* Supporting Files */,
 			);
 			path = "drawing board";
@@ -139,6 +161,52 @@
 			);
 			path = "drawing boardUITests";
 			sourceTree = "<group>";
+		};
+		C71DEC111DED6EB900CFBD2E /* other */ = {
+			isa = PBXGroup;
+			children = (
+				C71DEC231DED830600CFBD2E /* MBProgressHUD */,
+				C71DEBE11DED6EAA00CFBD2E /* AppDelegate.h */,
+				C71DEBE21DED6EAA00CFBD2E /* AppDelegate.m */,
+				C71DEBE71DED6EAA00CFBD2E /* Main.storyboard */,
+				C71DEBEA1DED6EAA00CFBD2E /* Assets.xcassets */,
+				C71DEBEC1DED6EAA00CFBD2E /* LaunchScreen.storyboard */,
+				C71DEBEF1DED6EAA00CFBD2E /* Info.plist */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		C71DEC121DED6EC900CFBD2E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C71DEBE41DED6EAA00CFBD2E /* ViewController.h */,
+				C71DEBE51DED6EAA00CFBD2E /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C71DEC231DED830600CFBD2E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C71DEC241DED830600CFBD2E /* MBProgressHUD+NJ.h */,
+				C71DEC251DED830600CFBD2E /* MBProgressHUD+NJ.m */,
+				C71DEC261DED830600CFBD2E /* MBProgressHUD.bundle */,
+				C71DEC271DED830600CFBD2E /* MBProgressHUD.h */,
+				C71DEC281DED830600CFBD2E /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C7A355671EC2A45600EC0997 /* draw_View */ = {
+			isa = PBXGroup;
+			children = (
+				C7A355681EC2A45600EC0997 /* draw_View.h */,
+				C7A355691EC2A45600EC0997 /* draw_View.m */,
+				C7A3556A1EC2A45600EC0997 /* YJ_View.h */,
+				C7A3556B1EC2A45600EC0997 /* YJ_View.m */,
+			);
+			path = draw_View;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -207,6 +275,7 @@
 				TargetAttributes = {
 					C71DEBDA1DED6EAA00CFBD2E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 67P63WKP32;
 						ProvisioningStyle = Automatic;
 					};
 					C71DEBF31DED6EAA00CFBD2E = {
@@ -247,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C71DEBEE1DED6EAA00CFBD2E /* LaunchScreen.storyboard in Resources */,
+				C71DEC2A1DED830600CFBD2E /* MBProgressHUD.bundle in Resources */,
 				C71DEBEB1DED6EAA00CFBD2E /* Assets.xcassets in Resources */,
 				C71DEBE91DED6EAA00CFBD2E /* Main.storyboard in Resources */,
 			);
@@ -274,8 +344,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C71DEBE61DED6EAA00CFBD2E /* ViewController.m in Sources */,
+				C7A3556D1EC2A45600EC0997 /* YJ_View.m in Sources */,
+				C7A3556C1EC2A45600EC0997 /* draw_View.m in Sources */,
+				C71DEC291DED830600CFBD2E /* MBProgressHUD+NJ.m in Sources */,
+				C71DEC191DED81AC00CFBD2E /* UIImage+photoView.m in Sources */,
 				C71DEBE31DED6EAA00CFBD2E /* AppDelegate.m in Sources */,
 				C71DEBE01DED6EAA00CFBD2E /* main.m in Sources */,
+				C71DEC2B1DED830600CFBD2E /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67P63WKP32;
 				INFOPLIST_FILE = "drawing board/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yang.drawing-board";
@@ -435,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67P63WKP32;
 				INFOPLIST_FILE = "drawing board/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yang.drawing-board";
@@ -507,6 +584,7 @@
 				C71DEC0A1DED6EAA00CFBD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C71DEC0B1DED6EAA00CFBD2E /* Build configuration list for PBXNativeTarget "drawing boardTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +593,7 @@
 				C71DEC0D1DED6EAA00CFBD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C71DEC0E1DED6EAA00CFBD2E /* Build configuration list for PBXNativeTarget "drawing boardUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +602,7 @@
 				C71DEC101DED6EAA00CFBD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

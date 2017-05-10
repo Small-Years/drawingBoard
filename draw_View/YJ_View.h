@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface YJ_View : UIView
-
+-(void)clearView;
+-(void)backView;
 @end

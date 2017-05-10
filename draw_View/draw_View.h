@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface draw_View : UIView
-
+-(void)clearView;
+-(void)backView;
 @end
